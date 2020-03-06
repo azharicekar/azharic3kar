@@ -43,7 +43,7 @@ function change(){
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Claim voc PAKEGOFOOD");
+        echo "\n".color("yellow","!] Claim voc GOFOOD022620A");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
