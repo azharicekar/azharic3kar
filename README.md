@@ -1,1 +1,0 @@
-# azharic3kar
