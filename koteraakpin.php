@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("green","[]          NADIEM MAKARIEM                \n");
-echo color("yellow","[]          BUYUANG TEAM             \n");
+echo color("green","[]          PRO PLAYER NO BON                \n");
+echo color("yellow","[]         JANDA TEAM BINJAI             \n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("yellow","[]         waiting proses.....           \n");
 echo color("yellow","[] cara menulis nomor pakai 62xxxxxxxxxx \n");
@@ -64,7 +64,7 @@ function change(){
         sleep(1);
         }
         sleep(3);
-        $boba11 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD022620A"}');
+        $boba11 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
         $messageboba11 = fetch_value($boba11,'"message":"','"');
         if(strpos($boba11, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba11);
@@ -72,14 +72,14 @@ function change(){
         }else{
         echo "\n".color("green","+] Message: ".$messageboba11);
         goride:
-        echo "\n".color("yellow","!] Claim voc GOFOOD022620A");
+        echo "\n".color("yellow","!] Claim voc COBAGOFOOD090320A");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD022620A"}');
+        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
         $message1 = fetch_value($goride,'"message":"','"');
         echo "\n".color("green","+] Message: ".$message1);
         sleep(3);
