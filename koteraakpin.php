@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","[]          PRO PLAYER NO BON                \n");
-echo color("yellow","[]         JANDA TEAM BINJAI             \n");
+echo color("yellow","[]          JANDA TEAM BINJAI             \n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("yellow","[]         waiting proses.....           \n");
 echo color("yellow","[] cara menulis nomor pakai 62xxxxxxxxxx \n");
@@ -57,7 +57,7 @@ function change(){
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$messageboba19);
-        echo "\n".color("yellow","!] Claim voc GOFOOD022620A");
+        echo "\n".color("yellow","!] Claim voc COBAGOFOOD090320A");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
